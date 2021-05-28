@@ -3,7 +3,7 @@
 <img src="sample_images/May-28-2021 15-38-41.gif" width="100%">
 
 ## Description
-This is an automatic tracking sample. Onece it detects the object, such as person, car, anything in coco 80 class labels 
+This is an automatic tracking sample. Once it detects the object, such as person, car, anything in coco 80 class labels 
 ofxOpenCvTracker is a realtime object tracking addon for openframeworks.
 
 Tracker sample is included opencv_contrib. I built opencv with contrib library and made it easier to use on Openframeworks. Here is a link to learn opencv tracking module. https://www.learnopencv.com/object-tracking-using-opencv-cpp-python/
@@ -16,9 +16,9 @@ Check the code out.
 ### 1. Clone ofxOpenCvDnnObjectDetection to your of/addon directory
     $ git clone https://github.com/TetsuakiBaba/ofxOpenCvDnnObjectDetection.git
 ### 2. Download models. please check ofxOpenCvDnnObjectDetection README>
-### 2. Clone ofxOpenCvTracker to your of/addon directory
+### 3. Clone ofxOpenCvTracker to your of/addon directory
     $ git clone https://github.com/TetsuakiBaba/ofxOpenCvTracker.git
-### 3. Download OpenCV.framework to ofxOpenCvTracker/libs directory. 
+### 4. Download OpenCV.framework to ofxOpenCvTracker/libs directory. 
     $ curl -O https://tetsuakibaba.jp/tmp/opencv2.framework.arm64.zip
     $ unzip opencv2.framework.arm64.zip
    
