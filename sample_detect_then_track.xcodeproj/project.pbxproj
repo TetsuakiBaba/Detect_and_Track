@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05A103FB2678A3A0003B64A3 /* ofxDetectAndTrack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05A103F92678A3A0003B64A3 /* ofxDetectAndTrack.cpp */; };
 		1CD33E884D9E3358252E82A1 /* ofxToggle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 907C5B5E104864A2D3A25745 /* ofxToggle.cpp */; };
 		483908258D00B98B4BE69F07 /* ofxLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78D67A00EB899FAC09430597 /* ofxLabel.cpp */; };
 		5CBB2AB3A60F65431D7B555D /* ofxButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C88333E71C9457E441C33474 /* ofxButton.cpp */; };
@@ -40,6 +41,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		05A103F92678A3A0003B64A3 /* ofxDetectAndTrack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxDetectAndTrack.cpp; sourceTree = "<group>"; };
+		05A103FA2678A3A0003B64A3 /* ofxDetectAndTrack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxDetectAndTrack.h; sourceTree = "<group>"; };
 		0A1DAC09F322AE313A40706D /* ofxToggle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxToggle.h; path = ../../../addons/ofxGui/src/ofxToggle.h; sourceTree = SOURCE_ROOT; };
 		1046873707383CA04192A4BE /* ofxOpenCvTracker.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxOpenCvTracker.cpp; path = ../../../addons/ofxOpenCvTracker/src/ofxOpenCvTracker.cpp; sourceTree = SOURCE_ROOT; };
 		15F2C6477A769C03A56D1401 /* ofxSlider.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxSlider.cpp; path = ../../../addons/ofxGui/src/ofxSlider.cpp; sourceTree = SOURCE_ROOT; };
@@ -680,6 +683,8 @@
 				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
 				E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */,
 				E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */,
+				05A103F92678A3A0003B64A3 /* ofxDetectAndTrack.cpp */,
+				05A103FA2678A3A0003B64A3 /* ofxDetectAndTrack.h */,
 			);
 			path = src;
 			sourceTree = SOURCE_ROOT;
@@ -792,6 +797,7 @@
 				483908258D00B98B4BE69F07 /* ofxLabel.cpp in Sources */,
 				F285EB3169F1566CA3D93C20 /* ofxPanel.cpp in Sources */,
 				837220E80EB56CD44AD27F2A /* ofxSlider.cpp in Sources */,
+				05A103FB2678A3A0003B64A3 /* ofxDetectAndTrack.cpp in Sources */,
 				B56FE57CC35806596D38118C /* ofxSliderGroup.cpp in Sources */,
 				1CD33E884D9E3358252E82A1 /* ofxToggle.cpp in Sources */,
 				CD41DC6BFFA7AD6E0924303F /* ofxOpenCvDnnObjectDetection.cpp in Sources */,

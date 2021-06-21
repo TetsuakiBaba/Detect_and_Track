@@ -2,6 +2,7 @@
 
 <img src="sample_images/May-28-2021 15-38-41.gif" width="100%">
 
+
 ## Description
 This is an automatic tracking sample. Once it detects the object, such as person, car, anything in coco 80 class labels 
 ofxOpenCvTracker is a realtime object tracking addon for openframeworks.
@@ -10,7 +11,21 @@ Tracker sample is included opencv_contrib. I built opencv with contrib library a
 
 
 ## Usage
-Check the code out.
+### setup method
+~~~
+ofxDetectAndTrack::setup(string _tracking_label, float _tracking_image_scale, float _adjustment_freq, bool _single_tracking)
+~~~
+Example
+Here is a sample setup call. 
+"person": sets "person" as a detection target
+0.2: makes smaller image scale of cv::tracker, which gets faster fps.
+1: 1Hz DNN detection calibration 
+true: enable single tracking
+```
+tracker.setup("person", 0.2, 1, true)
+```
+<img src="sample_images/Jun-22-2021 06-02-44.gif" width="100%">
+For more, Check the code out.
 
 ## Install
 ### 1. Clone ofxOpenCvDnnObjectDetection to your of/addon directory

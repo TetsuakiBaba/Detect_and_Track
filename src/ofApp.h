@@ -1,8 +1,7 @@
 #pragma once
 
 #include "ofMain.h"
-#include "ofxOpenCvTracker.h"
-#include "ofxOpenCvDnnObjectDetection.h"
+#include "ofxDetectAndTrack.h"
 
 class ofApp : public ofBaseApp{
 public:
@@ -10,15 +9,13 @@ public:
     void update();
     void draw();
 
-    void keyPressed(int key);
-    void mousePressed(int x, int y, int button);
-    void mouseReleased(int x, int y, int button);
-    void mouseDragged(int x, int y, int button);
+//    void keyPressed(int key);
+//    void mousePressed(int x, int y, int button);
+//    void mouseReleased(int x, int y, int button);
+//    void mouseDragged(int x, int y, int button);
 
     ofVideoGrabber camera;
-    vector<ofxOpenCvTracker> tracker;
-    ofRectangle r;
-    uint64_t tracking_time;
-    
-    ofxOpenCvDnnObjectDetection detector;
+    ofxDetectAndTrack dat;
 };
+
+
