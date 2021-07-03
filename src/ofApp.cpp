@@ -18,7 +18,7 @@ void ofApp::setup(){
     
     ofSetWindowShape(camera.getWidth(), camera.getHeight());
     ofSetWindowShape(camera.getWidth(), camera.getHeight());
-    dat.setup("person", 0.2, 1, true);
+    dat.setup("person", 0.2, 1, 5000, true);
   
 }
 
